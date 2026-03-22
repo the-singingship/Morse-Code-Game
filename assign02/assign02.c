@@ -27,9 +27,9 @@ void asm_gpio_put(uint pin, bool value) {
     gpio_put(pin, value);
 }
 
-// Enable falling-edge interrupt – see SDK for detail on
+// Enable falling and rising-edge interrupt – see SDK for detail on
 void asm_gpio_set_irq(uint pin) {
-    gpio_set_irq_enabled(pin, GPIO_IRQ_EDGE_FALL, true);
+    gpio_set_irq_enabled(pin, GPIO_IRQ_EDGE_FALL | GPIO_IRQ_EDGE_RISE, true);
 }
 
 // Main entry point of the application
