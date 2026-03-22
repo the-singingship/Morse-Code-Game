@@ -1,7 +1,0 @@
-C:/microprocessorassignment_2/build/_deps/picotool/picotool.exe
-C:/microprocessorassignment_2/build/_deps/picotool/picotoolTargets.cmake
-C:/microprocessorassignment_2/build/_deps/picotool/picotoolTargets-release.cmake
-C:/microprocessorassignment_2/build/_deps/picotool/picotoolConfig.cmake
-C:/microprocessorassignment_2/build/_deps/picotool/picotoolConfigVersion.cmake
-C:/microprocessorassignment_2/build/_deps/picotool/enc_bootloader.elf
-C:/microprocessorassignment_2/build/_deps/picotool/enc_bootloader_mbedtls.elf
