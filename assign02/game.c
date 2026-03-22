@@ -14,7 +14,7 @@
 #include "game.h"
 
 // ================================================================
-//  MORSE LOOKUP TABLE  (A-Z and 0-9)
+//  MORSE LOOKUP TABLE  (A to Z and 0 to 9)
 // ================================================================
 typedef struct {
     char        symbol;
@@ -192,8 +192,7 @@ bool run_level(int level, int *lives) {
         }
 
         // --------------------------------------------------------
-        // Marcel: call update_led(*lives) here once his LED
-        //         functions are ready, e.g:
+        // Marcel: once his LED functions are ready, e.g:
         //         update_led_for_lives(*lives);
         // --------------------------------------------------------
 
