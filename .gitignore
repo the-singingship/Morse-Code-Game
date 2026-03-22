@@ -1,0 +1,8 @@
+Add-Content C:\microprocessorassignment_2\.gitignore "build/"
+Add-Content C:\microprocessorassignment_2\.gitignore "*.uf2"
+Add-Content C:\microprocessorassignment_2\.gitignore "*.elf"
+Add-Content C:\microprocessorassignment_2\.gitignore "*.dis"
+Add-Content C:\microprocessorassignment_2\.gitignore "*.bin"
+Add-Content C:\microprocessorassignment_2\.gitignore "*.hex"
+Add-Content C:\microprocessorassignment_2\.gitignore "*.map"
+Add-Content C:\microprocessorassignment_2\.gitignore ".vscode/"

@@ -1,0 +1,14 @@
+# Target labels
+ picotool-populate
+# Source files and their labels
+C:/microprocessorassignment_2/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate
+C:/microprocessorassignment_2/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate.rule
+C:/microprocessorassignment_2/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate-complete.rule
+C:/microprocessorassignment_2/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-build.rule
+C:/microprocessorassignment_2/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-configure.rule
+C:/microprocessorassignment_2/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-download.rule
+C:/microprocessorassignment_2/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-install.rule
+C:/microprocessorassignment_2/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-mkdir.rule
+C:/microprocessorassignment_2/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-patch.rule
+C:/microprocessorassignment_2/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-test.rule
+C:/microprocessorassignment_2/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-update.rule

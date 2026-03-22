@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Pico Debug",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "openocd",
+
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}/build/labs/lab05/lab05.elf",
+
+      "serverpath": "${workspaceFolder}/tools/openocd/bin/openocd.exe",
+
+      "gdbPath": "arm-none-eabi-gdb",
+      "device": "RP2040",
+      "runToEntryPoint": "main",
+      "configFiles": [
+        "interface/cmsis-dap.cfg",
+        "target/rp2040.cfg"
+      ],
+
+      "searchDir": [
+        "${workspaceFolder}/tools/openocd/scripts"
+      ]
+    }
+  ]
+}
