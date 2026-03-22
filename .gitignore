@@ -6,3 +6,7 @@ Add-Content C:\microprocessorassignment_2\.gitignore "*.bin"
 Add-Content C:\microprocessorassignment_2\.gitignore "*.hex"
 Add-Content C:\microprocessorassignment_2\.gitignore "*.map"
 Add-Content C:\microprocessorassignment_2\.gitignore ".vscode/"
+Add-Content C:\microprocessorassignment_2\.gitignore "tools/"
+Add-Content C:\microprocessorassignment_2\.gitignore "pico-sdk/"
+
+
