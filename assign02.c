@@ -1,6 +1,25 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
+#include <string.h>
+
+//input mapping- converts morse to char
+char *morse_table[] = {
+    ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..",
+    ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-",
+    ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."
+};
+
+char letters[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+char decode_morse(char *input) {
+    for (int i = 0; i < 26; i++) {
+        if (strcmp(input, morse_table[i]) == 0) {
+            return letters[i];
+        }
+    }
+    return '?';
+}
 
 // Declare the main assembly code entry point.
 void main_asm(void);
