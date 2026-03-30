@@ -1,12 +1,35 @@
-Add-Content C:\microprocessorassignment_2\.gitignore "build/"
-Add-Content C:\microprocessorassignment_2\.gitignore "*.uf2"
-Add-Content C:\microprocessorassignment_2\.gitignore "*.elf"
-Add-Content C:\microprocessorassignment_2\.gitignore "*.dis"
-Add-Content C:\microprocessorassignment_2\.gitignore "*.bin"
-Add-Content C:\microprocessorassignment_2\.gitignore "*.hex"
-Add-Content C:\microprocessorassignment_2\.gitignore "*.map"
-Add-Content C:\microprocessorassignment_2\.gitignore ".vscode/"
-Add-Content C:\microprocessorassignment_2\.gitignore "tools/"
-Add-Content C:\microprocessorassignment_2\.gitignore "pico-sdk/"
+# Build folder
+build/
 
+# Pico SDK
+pico-sdk/
 
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ninja
+.ninja*
+
+# Binaries
+*.elf
+*.uf2
+*.bin
+*.hex
+*.map
+*.dis
+*.out
+*.o
+*.a
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db

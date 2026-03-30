@@ -1,0 +1,79 @@
+//  PLEASE DO NOT EDIT. MAKE YOUR OWN FILE.
+//  BUT FEEL FREE TO USE IT
+//  Author: Shipra
+
+// ============================================================
+//  BUILD
+// ============================================================
+cd C:\microprocessorassignment_2\build
+ninja -j4 assign02
+
+// ============================================================
+//  GIT - useful commands
+// ============================================================
+git config --global --list                  
+git add .                                   
+git push origin main                        
+
+// Stage specific files
+cd C:\microprocessorassignment_2
+git add assign02/assign02.c
+git add assign02/assign02.S
+git add assign02/welcome.c
+git add assign02/welcome.h
+git add assign02/game.c
+git add assign02/game.h
+git add assign02/CMakeLists.txt
+git add assign02/git-notes.txt
+git commit -m "message"
+git push origin main                           
+
+cd C:\Users\shipr\pico-apps
+git add assignments/MICROPROCESSORASSIGNMENT_2/MICROPROCESSORASSIGNMENT_2.S
+git add assignments/MICROPROCESSORASSIGNMENT_2/assi.c
+git add assignments/MICROPROCESSORASSIGNMENT_2/CMakeLists.txt
+git add assignments/MICROPROCESSORASSIGNMENT_2/ws2812.pio
+git add assignments/MICROPROCESSORASSIGNMENT_2/git-notes.txt
+git commit -m "Assignment2 working version. yaya"
+git push origin main
+
+// ============================================================
+//  REBUILD FROM SCRATCH
+// ============================================================
+cd C:\microprocessorassignment_2
+Remove-Item -Recurse -Force build
+mkdir build
+cd build
+cmake .. -G Ninja -DPICO_SDK_PATH=C:/microprocessorassignment_2/pico-sdk
+ninja -j4 assign02
+
+// ============================================================
+//  KILL LOCKED PROCESSES
+// ============================================================
+taskkill /F /IM Code.exe
+taskkill /F /IM ninja.exe
+taskkill /F /IM cmake.exe
+taskkill /F /IM arm-none-eabi-gcc.exe
+taskkill /F /IM openocd.exe
+taskkill /F /IM gdb.exe
+
+// Kill and clean build in one go
+Remove-Item -Recurse -Force C:\Users\shipr\pico-apps\build
+taskkill /F /IM Code.exe; Remove-Item -Recurse -Force C:\Users\shipr\pico-apps\build
+
+rm -rf build
+mkdir build
+cd build
+cmake ..
+make
+
+// ============================================================
+//  FLASH - copy .uf2 to Pico (replace E:\ with your drive)
+// ============================================================
+copy C:\microprocessorassignment_2\build\assign02\assign02.uf2 E:\
+
+// ============================================================
+//  IF BUILD FOLDER GETS LOCKED
+// ============================================================
+Get-Process | Where-Object {$_.Modules.FileName -like "*assign02*"}
+tasklist /v | findstr "assign02"

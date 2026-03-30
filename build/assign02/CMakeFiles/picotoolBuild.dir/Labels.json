@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/microprocessorassignment_2/build/assign02/CMakeFiles/picotoolBuild"
+		},
+		{
+			"file" : "C:/microprocessorassignment_2/build/assign02/CMakeFiles/picotoolBuild.rule"
+		},
+		{
+			"file" : "C:/microprocessorassignment_2/build/assign02/CMakeFiles/picotoolBuild-complete.rule"
+		},
+		{
+			"file" : "C:/microprocessorassignment_2/build/assign02/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule"
+		},
+		{
+			"file" : "C:/microprocessorassignment_2/build/assign02/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule"
+		},
+		{
+			"file" : "C:/microprocessorassignment_2/build/assign02/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule"
+		},
+		{
+			"file" : "C:/microprocessorassignment_2/build/assign02/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule"
+		},
+		{
+			"file" : "C:/microprocessorassignment_2/build/assign02/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule"
+		},
+		{
+			"file" : "C:/microprocessorassignment_2/build/assign02/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule"
+		},
+		{
+			"file" : "C:/microprocessorassignment_2/build/assign02/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule"
+		},
+		{
+			"file" : "C:/microprocessorassignment_2/build/assign02/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"picotoolBuild"
+		],
+		"name" : "picotoolBuild"
+	}
+}
