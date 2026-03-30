@@ -32,4 +32,7 @@ Makefile
 
 # OS junk
 .DS_Store
-Thumbs.db
+Thumbs.dbtools/
+pico-sdk/
+build/
+.vscode/
