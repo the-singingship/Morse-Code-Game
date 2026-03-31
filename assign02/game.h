@@ -4,7 +4,7 @@
 /**
  * @file    game.h
  * @brief   Game logic for single-character and word-level Morse rounds.
- */
+*/
 
 #include <stdbool.h>
 
@@ -32,5 +32,12 @@ bool run_level(int level, int *lives);
  * @return The matching alphanumeric character, or '?' if unrecognised
  */
 char decode_morse(const char *morse_str);
+
+/**
+ * @brief  Selects a difficulty based on GPIO input
+ * @param  none
+ * @return Returns either a 1 (easy mode) or 2 (hard mode)
+ */
+int select_difficulty(void);
 
 #endif
